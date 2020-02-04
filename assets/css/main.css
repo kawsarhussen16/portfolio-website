@@ -2627,6 +2627,19 @@ input, select, textarea {
 					padding: 0 1em;
 				}
 
+		/* portfolio content: ; */
+		#portfolio .container .column .box .content{
+			width: 100%;
+			font-size: 12px;
+			line-height: 1.5;
+			text-align: start;
+			margin: 0px auto 30px auto;
+			padding: 10px;
+		}
+		#portfolio .container .column .box h3{
+			font-size: 15px;
+		}
+
 		/* Footer */
 
 			#footer .copyright li {
@@ -2642,3 +2655,56 @@ input, select, textarea {
 				}
 
 	}
+@media screen and (min-width: 736px) {
+	#portfolio .container .column .box{
+		display: flex;
+		justify-content: flex-start;
+		margin: 20px auto;
+		padding: 10px;
+	}
+	#portfolio .container .column .box a{
+		width: 45%;
+		margin: auto;
+	}
+	#portfolio .container .column .box h3{
+		font-size: 14px;
+		font-weight: bold;
+	}
+	#portfolio .container .column .box .content{
+		width: 46%;
+		font-size: 13px;
+		line-height: 1.8;
+		text-align: start;
+		margin: auto;
+	}
+	#logo{
+		font-family: fantasy;
+		font-size: large;
+	}
+
+}
+p{
+	font-size: 17px;
+	line-height: 2;
+	margin: 10px auto;
+}
+@media screen and (max-width: 736px) {
+	p{font-size: 14px;}
+	h4{
+		font-size: 16px;
+	}
+}
+
+#main h2{
+	font-family: fantasy;
+}
+
+#portfolio .container .column .box{
+	background-color:  rgb(233, 241, 241);
+	border-radius: 5px;
+	border: 1px solid pink;
+}
+#portfolio .container .column .box h3{
+	font-family: fantasy;
+}
+
