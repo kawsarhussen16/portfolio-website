@@ -2687,7 +2687,12 @@ p{
 	font-size: 17px;
 	line-height: 2;
 	margin: 10px auto;
+	color: rgb(56, 28, 28);
 }
+li{
+	color: rgb(56, 28, 28);
+}
+
 @media screen and (max-width: 736px) {
 	p{font-size: 14px;}
 	h4{
@@ -2703,8 +2708,12 @@ p{
 	background-color:  rgb(233, 241, 241);
 	border-radius: 5px;
 	border: 1px solid pink;
+	margin: 20px auto;
 }
 #portfolio .container .column .box h3{
 	font-family: fantasy;
+}
+#portfolio .container .column .box a img{
+	border-radius: 5px;
 }
 
