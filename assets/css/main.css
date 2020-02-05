@@ -2716,4 +2716,13 @@ li{
 #portfolio .container .column .box a img{
 	border-radius: 5px;
 }
-
+#header{
+	background:rgb(118, 190, 202);
+}
+#header a{
+	color:black !important;
+}
+#header p{
+	font-size: 16px;
+	color: black;
+}
